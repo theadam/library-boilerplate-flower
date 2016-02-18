@@ -1,0 +1,19 @@
+{
+  "name": "library-boilerplate",
+  "operations": {
+    "discard": [
+      "README.md",
+      "flower.json"
+    ],
+    "parse": [
+      "PROJECT-README",
+      "package.json",
+      "webpack.config.js"
+    ],
+    "move": [
+     {
+       "PROJECT-README": "README.md"
+     }
+    ]
+  }
+}
