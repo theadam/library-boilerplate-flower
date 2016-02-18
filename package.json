@@ -1,11 +1,11 @@
 {
   "name": "{{ name }}",
   "version": "0.0.1",
-  "description": "DESCRIPTION",
+  "description": "{{ description }}",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/theadam/{{ name }}.git"
+    "url": "https://github.com/{{ githubUser }}/{{ name }}.git"
   },
   "keywords": [
   ],
@@ -21,7 +21,7 @@
     "test:cov": "babel-node ./node_modules/.bin/isparta cover ./node_modules/.bin/_mocha",
     "build-examples": "npm run build:umd; for i in `ls examples`; do pushd examples/$i; webpack; popd; done"
   },
-  "author": "Adam Nalisnick",
+  "author": "{{ author }}",
   "license": "MIT",
   "devDependencies": {
     "babel": "^5.8.22",

@@ -27,7 +27,7 @@ module.exports = {
     ]
   },
   output: {
-    library: '{{ name }}',
+    library: '{{ camelName }}',
     libraryTarget: 'umd'
   },
   externals: {

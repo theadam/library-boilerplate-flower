@@ -1,5 +1,11 @@
 {
   "name": "library-boilerplate",
+  "context": {
+    "camelName": "libraryBoilerplate",
+    "author": "Adam Nalisnick",
+    "githubUser": "theadam",
+    "description": "Cool Lib"
+  },
   "operations": {
     "discard": [
       "README.md",
