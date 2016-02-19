@@ -1,6 +1,6 @@
 # library-boilerplate-flower
 
-A boilerplate to be used with pollinate to create a library.
+A boilerplate to be used with [pollinate](https://github.com/everysquare/pollinate) to create a library.
 
 # Variable Stuff
 
